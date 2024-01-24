@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+    php:
+        image: wordpress:latest
+        volumes:
+            - ./app:/var/www/html
+        ports:
+            - 80:80
+        depends_on:
+            - mysql
+    mysql:
+        image: mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: secret
+            MYSQL_DATABASE: wp_test
+            MYSQL_USER: wp_test
+            MYSQL_PASSWORD: wp_test
+        ports:
+            - 3306:3306
+        volumes:
+            - ./mysql:/var/lib/mysql

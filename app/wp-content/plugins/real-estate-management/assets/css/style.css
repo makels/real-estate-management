@@ -1,0 +1,55 @@
+.rem_filter__filter_wrapper {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fieldset {
+    margin-top: 10px;
+}
+
+.fieldset input,
+.fieldset select,
+.fieldset button {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.paginate {
+    margin-top: 20px;
+}
+
+.rem-props {
+    font-size: 11px;
+    color: #777;
+}
+
+.rem-item {
+    display: inline-block;
+    border-bottom: 1px dotted #999;
+    padding: 20px 0;
+}
+
+.custom-bg {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.object_wrapper {
+    float: left;
+    margin-left: 20px;
+}
+
+.paginate {
+    width: 100%;
+    text-align: center;
+}
